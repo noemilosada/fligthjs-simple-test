@@ -18,8 +18,45 @@ body {
   line-height: 1.2;
 }
 
+h2 {
+  color: #888;
+  margin: 20px 0 10px 0;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px dotted #333;
+  margin: 5px 0 10px 0;
+}
+
 .content {
   margin: 0 auto;
   padding: 20px 0;
   width: 80%;
+}
+
+.component {
+  cursor: pointer;
+  clear: both;
+  display: block;
+  font-weight: bold;
+}
+
+.hide-show,
+.hide-show-effects {
+  /** Disable selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hide-show span,
+.hide-show-effects span {
+  background-color: #CC33FF;
+  color: #fff;
+  padding: 5px;
+  white-space: nowrap;
 }
