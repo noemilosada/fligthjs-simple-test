@@ -1,0 +1,25 @@
+/**
+ * @name: main.css
+ * @author: Noemi Losada <noemi@mendeley.com>
+ * @date: 19/01/2015
+ * @version: 0.0.1
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;
+}
