@@ -1,6 +1,6 @@
 /**
  * @name: main.css
- * @author: Noemi Losada <noemi@mendeley.com>
+ * @author: Noemi Losada <info@noemilosada.com>
  * @date: 19/01/2015
  * @version: 0.0.1
  */
@@ -42,8 +42,7 @@ h2 {
   font-weight: bold;
 }
 
-.hide-show,
-.hide-show-effects {
+.hide-show {
   /** Disable selection */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -53,8 +52,7 @@ h2 {
   user-select: none;
 }
 
-.hide-show span,
-.hide-show-effects span {
+.hide-show span {
   background-color: #CC33FF;
   color: #fff;
   padding: 5px;
